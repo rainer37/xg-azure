@@ -1,0 +1,73 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters":
+    {
+    "vmName": {
+      "value": "FirewallXG"
+    },
+    "adminPassword": {
+      "value": "Rain09080908"
+    },
+    "vmSize": {
+      "value": "Standard_F2s_v2"
+    },
+    "netNewOrExisting": {
+      "value": "new"
+    },
+    "netRG": {
+      "value": "RainUI0"
+    },
+    "netName": {
+      "value": "VNET"
+    },
+    "netPrefix": {
+      "value": "10.88.0.0/16"
+    },
+    "wanName": {
+      "value": "LAN"
+    },
+    "wanPrefix": {
+      "value": "10.88.0.0/24"
+    },
+    "lanName": {
+      "value": "WAN"
+    },
+    "lanPrefix": {
+      "value": "10.88.1.0/24"
+    },
+    "storageNewOrExisting": {
+      "value": "new"
+    },
+    "storageRG": {
+      "value": "RainUI0"
+    },
+    "storageName": {
+      "value": "rainui0"
+    },
+    "storageType": {
+      "value": "Standard_LRS"
+    },
+    "imageSku": {
+      "value": "byol"
+    },
+    "publicIpDNS": {
+      "value": "rainui0"
+    },
+    "publicIpName": {
+      "value": "PublicIP"
+    },
+    "publicIpNewOrExisting": {
+      "value": "new"
+    },
+    "publicIpRG": {
+      "value": "RainUI0"
+    },
+    "publicIpType": {
+      "value": "Dynamic"
+    },
+    "location": {
+      "value": "eastus"
+    }
+  }
+}
