@@ -55,6 +55,7 @@
                 },
                 "osProfile": {
                     "computerName": "[parameters('vmName')]",
+                    "customData": "{\"orders\": [{\"method\":\"enableTa\"}]}",
                     "adminUsername": "[variables('adminUsername')]",
                     "adminPassword": "[parameters('adminPassword')]"
                 },
